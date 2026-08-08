@@ -1,12 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import UserPage from './pages/users/UserPage'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <h1 className="text-sm">Get started</h1>   
+      <UserPage />
     </>
   )
 }
